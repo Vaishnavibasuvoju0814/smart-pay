@@ -126,17 +126,3 @@ payment method/notifier class. This is the Open/Closed Principle in action.
 - **Dependency Inversion** — `PaymentProcessor` depends only on the abstract
   `PaymentMethod` / `PaymentObserver` interfaces, never on concrete classes.
 
-## One-line resume bullet
-
-> Built a payment processing system in Python using Strategy and Observer
-> design patterns for pluggable payment methods and decoupled multi-channel
-> (Email/SMS) notifications, following SOLID design principles.
-
-## 20-second interview pitch
-
-> "I built a payment system where different payment methods — Credit Card,
-> UPI, Net Banking — all implement a common interface, so I can swap between
-> them at runtime using the Strategy pattern. When a payment succeeds, I use
-> the Observer pattern to automatically notify multiple channels — Email and
-> SMS — without the payment logic knowing anything about the notifiers. This
-> keeps the code decoupled and easy to extend."
