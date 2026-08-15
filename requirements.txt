@@ -1,0 +1,5 @@
+# Only needed for the optional API layer (api.py).
+# The core library (payment_methods.py, notifiers.py, payment_processor.py,
+# storage.py) and main.py use only the Python standard library.
+fastapi>=0.110
+uvicorn[standard]>=0.29
