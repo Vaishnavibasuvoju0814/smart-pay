@@ -22,7 +22,7 @@ def main():
         "credit_card", card_number="4111111111111234", cvv="123"
     )
     processor = PaymentProcessor(credit_card, store=store)
-    processor.attach(EmailNotifier("user@example.com"))
+    processor.attach(EmailNotifier("vaishnavibasuvoju0814@gmail.com"))
     processor.attach(SMSNotifier("+91-9876543210"))
     processor.process_payment(2500.00)
 
